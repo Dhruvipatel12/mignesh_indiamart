@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mignesh_indiamart *.css
+recursive-include mignesh_indiamart *.csv
+recursive-include mignesh_indiamart *.html
+recursive-include mignesh_indiamart *.ico
+recursive-include mignesh_indiamart *.js
+recursive-include mignesh_indiamart *.json
+recursive-include mignesh_indiamart *.md
+recursive-include mignesh_indiamart *.png
+recursive-include mignesh_indiamart *.py
+recursive-include mignesh_indiamart *.svg
+recursive-include mignesh_indiamart *.txt
+recursive-exclude mignesh_indiamart *.pyc
