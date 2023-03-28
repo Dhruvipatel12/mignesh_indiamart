@@ -113,7 +113,12 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
+    "indiamart_api":{
+        "30 * * * *": [
+			"mignesh_indiamart.api.indiamart_api"
+		],
+    }
 #	"all": [
 #		"mignesh_indiamart.tasks.all"
 #	],
@@ -129,7 +134,7 @@ app_license = "MIT"
 #	"monthly": [
 #		"mignesh_indiamart.tasks.monthly"
 #	],
-# }
+}
 
 # Testing
 # -------

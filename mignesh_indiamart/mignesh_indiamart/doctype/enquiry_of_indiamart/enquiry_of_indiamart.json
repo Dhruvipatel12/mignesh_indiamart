@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2023-03-28 12:58:29.392566",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
   "sender_id",
   "column_break_2",
   "full_name",
@@ -157,14 +159,21 @@
    "fieldname": "message",
    "fieldtype": "Small Text",
    "label": "Message"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Serise",
+   "options": "IND-.###"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-28 12:58:29.392566",
+ "modified": "2023-03-28 13:48:56.918966",
  "modified_by": "Administrator",
  "module": "mignesh_indiamart",
  "name": "Enquiry of Indiamart",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
