@@ -204,3 +204,7 @@ scheduler_events = {
 # auth_hooks = [
 #	"mignesh_indiamart.auth.validate"
 # ]
+fixtures = [
+
+    {"dt": "Indiamart Setting", }
+]
