@@ -206,5 +206,5 @@ scheduler_events = {
 # ]
 fixtures = [
 
-    {"dt": "Indiamart Setting"}
+    {"dt": "Indiamart Integration"}
 ]
