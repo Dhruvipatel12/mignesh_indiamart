@@ -114,14 +114,14 @@ app_license = "MIT"
 # ---------------
 
 scheduler_events = {
-    "indiamart_api":{
+    "a":{
         "30 * * * *": [
 			"mignesh_indiamart.api.indiamart_api"
 		],
     }
-#	"all": [
-#		"mignesh_indiamart.tasks.all"
-#	],
+	# "all": [
+	# 	"mignesh_indiamart.api.indiamart_api"
+	# ],
 #	"daily": [
 #		"mignesh_indiamart.tasks.daily"
 #	],
@@ -206,5 +206,5 @@ scheduler_events = {
 # ]
 fixtures = [
 
-    {"dt": "Indiamart Setting", }
+    {"dt": "Indiamart Setting"}
 ]
